@@ -1,0 +1,92 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+body{
+    font-family: 'SF Pro Display', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+#logo{
+    padding-left: 2%;
+}
+
+#menu{
+    display: flex;
+    justify-content: end;
+    padding-right: 5%;
+}
+
+.nav{
+    background-color: #A22531;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    padding: 3% 0 5.5% 0;
+}
+
+#h1{
+    font-size: 68px;
+    color: white;
+    padding: 10% 5% 0 7%;
+}
+
+.hero{
+    display: flex;
+    justify-content: left;
+    padding-top: 2%;
+}
+
+#img{
+    padding-top: 7%;
+    padding-right: 5%;
+}
+
+.top{
+    display: flex;
+    justify-content: left;
+    background-color: #FFCB1F;
+}
+
+.top > img{
+    margin-top: 5%;
+}
+
+.txt{
+    background-color: #A22531;
+    padding: 2% 28.75% 8% 10%;
+    font-size: 20px;
+    color: white;
+}
+
+.txt > h3{
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 15%;
+}
+
+#top-btm{
+    display: flex;
+    justify-content: center;
+    background-color: #FFCB1F;
+}
+
+#top-btm > p{
+    margin-right: 20%;
+    padding: 15% 0 15% 28.5%;
+    font-size: 20px;
+}
+
+#top-btm > img{
+    margin-top: 12%;
+}
+
+#mid-top{
+    display: flex;
+    justify-content: left;
+}
+#mid-top > p{
+    background-color: #9CA5AF;
+    color: white;
+    margin: 0;
+    padding: 15% 35.65% 15% 7%;
+    font-size: 20px;
+}
